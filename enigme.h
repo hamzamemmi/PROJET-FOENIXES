@@ -1,4 +1,4 @@
-
+#ifndef  ENIGME_H_INCLUDED 
 #define ENIGME_H_INCLUDED
 
 #include<stdio.h> 
