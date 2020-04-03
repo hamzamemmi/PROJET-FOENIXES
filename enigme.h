@@ -25,7 +25,7 @@ typedef struct
 
 typedef struct 
 {
-	 SDL_Surface * img;
+	 SDL_Surface * image;
  	 SDL_Rect p;
 } enigme;
 
