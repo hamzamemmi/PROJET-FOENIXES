@@ -15,7 +15,6 @@ SDL_Surface *entity ;
 SDL_Rect pos_entity;
 SDL_Rect anim_entity[70];
 int cont_entity;
-int type;
 int col;
 }entity ;
 
