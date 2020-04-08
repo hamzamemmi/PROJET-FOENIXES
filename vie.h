@@ -6,25 +6,8 @@ typedef struct
 	SDL_Surface *texte;
 	TTF_Font *police=NULL;
 	SDL_Rect posvie;
-	int nbvie;
-}vie;
-typedef struct
-{	SDL_Color couleur;
-	SDL_Surface *texte;
-	TTF_Font *police;
-	SDL_Rect *pos;
-	int topscore;
-	int score;
-}score;
-typedef struct
-{	SDL_Color couleur;
-	SDL_Surface *texte;
-	TTF_Font *police;
-	SDL_Rect *pos;
-	int tempsinitial;
-	int tempscourant;
-}temps;
-
+        char cahine[50];
+}texte;
 void initialiservie(vie *v);
 void initialiserscore(score *s);
 void initialisertemps(temps *t);
