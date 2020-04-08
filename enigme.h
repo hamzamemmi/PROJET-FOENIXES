@@ -32,7 +32,7 @@ typedef struct
 int initialiser_enigme();
 // void generer(SDL_Surface * screen  , char image [],enigme *E ,int *aleatoire);
 void affichage(enigme *E ,int val);
-int resolution_enigmes(char reponse_choisie[4], int val,enigme *E);
+int resolution_enigmes(char reponse_choisie[3], int val,enigme *E);
 int solution_enigme (char image [], int *reponse) ;
 int resolution (int * running ,int *run);
 int afficher_resultat (SDL_Surface * screen,int s,int r,enigme *EN, int reponse) ;
